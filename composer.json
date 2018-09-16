@@ -1,0 +1,14 @@
+{
+    "name": "lingliangxing/composer",
+    "description": "test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lingliangxing",
+            "email": "13265990757@sina.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
