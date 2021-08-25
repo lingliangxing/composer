@@ -1,0 +1,103 @@
+---------------------------------------------------------------
+
+[2021-08-19T22:30:13+08:00] 58.23.19.75 GET web.lingzweb.cn/
+[运行时间：0.507859s] [吞吐率：1.97req/s] [内存消耗：4,463.70kb] [文件加载：121]
+[ info ] [ LANG ] /www/wwwroot/lingzweb/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'web.lingzweb.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/lingzweb/public/../templates/default/cms/index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;dbname=lingzweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_category` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_category` WHERE  ( `status`=1 AND `parentid` = 0 ) ORDER BY `listorder` DESC LIMIT 10 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_category` WHERE  ( `status`=1 AND `parentid` = 1 ) ORDER BY `listorder` DESC LIMIT 10 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_category` WHERE  ( `status`=1 AND `parentid` = 6 ) ORDER BY `listorder` DESC LIMIT 10 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_category` WHERE  ( `status`=1 AND `parentid` = 8 ) ORDER BY `listorder` DESC LIMIT 10 [ RunTime:0.000226s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000278s ] mysql:host=127.0.0.1;dbname=lingzweb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `yzn_category` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_model` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_model` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_product` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_product` WHERE  ( `status`=1 AND (FIND_IN_SET('4', flag)) AND `catid` = 5 ) ORDER BY `listorder` DESC LIMIT 10 [ RunTime:0.000223s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;dbname=lingzweb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `yzn_category` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_model` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_article` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_article` WHERE  ( `status`=1 AND `catid` in(9,10,14,6) ) ORDER BY `listorder` DESC LIMIT 3 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_category` WHERE  ( id in(1,6,8) ) ORDER BY `listorder` DESC LIMIT 4 [ RunTime:0.000227s ]
+---------------------------------------------------------------
+
+[2021-08-19T22:30:22+08:00] 58.23.19.75 GET web.lingzweb.cn/roboits.text
+[运行时间：0.055324s] [吞吐率：18.08req/s] [内存消耗：2,471.28kb] [文件加载：96]
+[ info ] [ LANG ] /www/wwwroot/lingzweb/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=256513165.97987059597060390000.1629383414016.285; monitor_count=1; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'web.lingzweb.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-08-19T22:30:42+08:00] 58.23.19.75 GET web.lingzweb.cn/robots.text
+[运行时间：0.023692s] [吞吐率：42.21req/s] [内存消耗：2,471.28kb] [文件加载：96]
+[ info ] [ LANG ] /www/wwwroot/lingzweb/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=256513165.97987059597060390000.1629383414016.285; thinkphp_show_page_trace=0|0; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'web.lingzweb.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

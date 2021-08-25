@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:11:{i:4;a:3:{s:2:"id";i:4;s:6:"catdir";s:5:"honor";s:8:"parentid";i:1;}i:14;a:3:{s:2:"id";i:14;s:6:"catdir";s:6:"record";s:8:"parentid";i:6;}i:1;a:3:{s:2:"id";i:1;s:6:"catdir";s:5:"about";s:8:"parentid";i:0;}i:3;a:3:{s:2:"id";i:3;s:6:"catdir";s:7:"culture";s:8:"parentid";i:1;}i:5;a:3:{s:2:"id";i:5;s:6:"catdir";s:4:"case";s:8:"parentid";i:0;}i:10;a:3:{s:2:"id";i:10;s:6:"catdir";s:9:"knowledge";s:8:"parentid";i:6;}i:2;a:3:{s:2:"id";i:2;s:6:"catdir";s:12:"Introduction";s:8:"parentid";i:1;}i:6;a:3:{s:2:"id";i:6;s:6:"catdir";s:4:"news";s:8:"parentid";i:0;}i:9;a:3:{s:2:"id";i:9;s:6:"catdir";s:9:"marketing";s:8:"parentid";i:6;}i:8;a:3:{s:2:"id";i:8;s:6:"catdir";s:7:"contact";s:8:"parentid";i:0;}i:18;a:3:{s:2:"id";i:18;s:6:"catdir";s:7:"fangshi";s:8:"parentid";i:8;}}
