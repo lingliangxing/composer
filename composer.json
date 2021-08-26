@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "topthink/think",
     "description": "the new thinkphp framework",
     "type": "project",
@@ -39,4 +40,18 @@
     "config": {
         "preferred-install": "dist"
     }
+=======
+    "name": "lingliangxing/composer",
+    "description": "test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lingliangxing",
+            "email": "13265990757@sina.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+>>>>>>> a85483b46cc1e0f32eb6bf0368c67d30baa5a8f0
 }
